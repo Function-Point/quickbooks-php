@@ -14,10 +14,10 @@ class QuickBooks_IPP_Object_Line extends QuickBooks_IPP_Object
 		return $this->get('Qty');
 	}
 	
-	public function setDescription($description)
-	{
-		return $this->set('Desc', $description);
-	}
+//	public function setDescription($description)
+//	{
+//		return $this->set('Desc', $description);
+//	}
 	
 	public function getDescription()
 	{

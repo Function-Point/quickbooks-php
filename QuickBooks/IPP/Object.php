@@ -461,4 +461,9 @@ class QuickBooks_IPP_Object
 		
 		return $xml;
 	}
+
+    public function getData()
+    {
+        return $this->_data;
+    }
 }
